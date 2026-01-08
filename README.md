@@ -2,66 +2,39 @@
 
 ## 📖 Project Overview
 
-How do you turn 300,000+ rows of raw traffic collision data into life-saving insights? This project addresses that challenge by providing a comprehensive, interactive dashboard designed for stakeholders like the **Department for Transport**, local police forces, and urban planners.
+This project transforms a massive government dataset of **307,973 rows** into a high-performance business intelligence tool. As a simulated Head of Road Safety for the UK Department for Transport, I developed this dashboard to identify critical accident patterns and provide actionable insights to improve public safety.
 
-Using data from 2021 and 2022, this dashboard identifies patterns in road accidents to help authorities prioritize safety interventions and resource allocation.
+## 🛠️ Technical Skills Demonstrated
 
-## 🛠️ Tech Stack & Skills
+* **Advanced Data Cleaning:** Processed over 300k records using **Power Query** to handle missing values, format dates, and standardize categories.
+* **Big Data Management:** Optimized a large **54MB Excel workbook** for smooth interactivity and fast filtering.
+* **Analytical Modeling:** Created complex Pivot Tables and custom measures to analyze Year-over-Year (YoY) trends.
+* **UI/UX Design:** Built a dark-themed, professional interface featuring dynamic slicers and custom icons for high scannability.
 
-* **Tool:** Microsoft Excel (Advanced)
-* **Data Processing:** Power Query (ETL - Cleaning, Merging, and Formatting)
-* **Analysis:** Pivot Tables, DAX-style Calculated Measures
-* **Visualization:** Dynamic Charts, Slicers, Timeline Filters, and Custom Iconography
+## 📊 Key Insights & KPIs
 
-## 📊 Key Insights & Features
+The dashboard provides a deep dive into **417,883 total casualties**:
 
-### 🔑 Primary KPIs
+### 🔑 Primary Performance Indicators
 
-* **Total Casualties:** 417,883 recorded over two years.
-* **Severity Analysis:** Breakdown of Fatal (1.7%), Serious (14.2%), and Slight (84.1%) casualties.
-* **Vehicle Performance:** Identification of high-risk vehicle types (Cars account for ~80% of casualties).
+* **Severity Breakdown:** Detailed distribution of Fatal (1.7%), Serious (14.2%), and Slight (84.1%) casualties.
+* **Vehicle Risk Analysis:** Identifies that Cars account for nearly **80% of all casualties** (333,485 cases).
+* **Monthly Trends:** Comparative 2021 vs. 2022 trend lines to identify seasonal peaks in accidents.
 
-### 📈 Secondary Metrics
+### 🌍 Environmental & Infrastructure Factors
 
-* **YoY Monthly Trends:** A direct comparison between 2021 and 2022 to identify seasonal spikes.
-* **Environmental Factors:** Analysis of Road Surface conditions (Dry vs. Wet/Ice) and Light conditions (Daylight vs. Dark).
-* **Infrastructure Impact:** Casualties categorized by Road Type (Single Carriageway, Dual Carriageway, Roundabouts, etc.).
-* **Geographic Distribution:** Comparison of Urban vs. Rural accident density.
+* **Road Surface:** Analysis of accidents across Dry, Wet, and Snow/Ice conditions.
+* **Light Conditions:** Comparison of safety metrics during Daylight vs. Dark hours.
+* **Location Analysis:** A "Rural vs. Urban" filter to help emergency services plan resource allocation.
 
-## 📂 Dataset Details
+## 📂 Repository Structure
 
-* **Data Source:** UK Department for Transport (Raw Collision Data)
-* **Volume:** 307,973 rows × 23 columns
-* **Time Period:** January 2021 – December 2022
+* **`Road_Accident_Dashboard.xlsx`**: The core interactive file (Requires Excel Desktop for full functionality).
+* **`.gitattributes`**: Configuration for **Git LFS** (Large File Storage) used to host the 54MB dataset.
 
-## 🚀 How to Use the Dashboard
+## 🚀 How to Explore
 
-1. **Filters:** Use the "Filter Panels" on the right to toggle between **Rural** and **Urban** data.
-2. **Timeline:** Use the "Accident Date" slicer to drill down into specific months or years.
-3. **Interactivity:** Click on specific charts to see how metrics cross-reference (e.g., viewing Fatalities specifically for "Wet" road surfaces).
+1. **Download** the `.xlsx` file from this repository.
+2. **Open in Excel Desktop** (Enable content/macros if prompted to allow slicers to work).
+3. Use the **Filter Panels** on the bottom right to toggle between different accident scenarios.
 
-## 💡 Why This Matters
-
-By transforming raw, overwhelming data into a visual story, this project empowers decision-makers to:
-
-* Identify high-risk road types for infrastructure upgrades.
-* Optimize emergency response deployment based on urban/rural trends.
-* Develop public safety campaigns targeting specific vehicle types or conditions.
-
----
-
-### 🤝 Let's Connect!
-
-I am passionate about data storytelling and business intelligence. If you have questions about this project or want to discuss Excel analytics, feel free to reach out!
-
-**[Insert Your LinkedIn Profile Link Here]**
-
----
-
-### 💡 Pro-Tips for your GitHub Repo:
-
-1. **Add the File:** Make sure to upload the actual `.xlsx` file (or a zipped version if it's too large) so people can download and test the interactivity.
-2. **Add a "Lessons Learned" section:** Mentioning challenges you faced with Power Query or how you chose the color palette adds a great personal touch for recruiters.
-3. **Video Link:** Since you mentioned a walkthrough video in your post, embed that link directly in the README under a "Video Demo" heading!
-
-**Would you like me to help you write a technical "How-To" section explaining the specific Power Query steps you took to clean the data?**
